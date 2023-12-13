@@ -1,4 +1,4 @@
-h1 {
+h1, .square {
   text-align: center;
 }
 
@@ -6,4 +6,12 @@ h1 {
   height: 200px;
   width: 200px;
   border: 1px solid black;
+  font-size: 10rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 610px;
+  margin: 0 auto;
 }
