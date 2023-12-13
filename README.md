@@ -57,8 +57,22 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 - Can see a page with a three-by-three grid board game
 - Can see a question mark in each square
+    - iterate across each value in the array using .map() to repeat the styling with each value
 - Can click on any of the question marks and see an alert with the index position of that question mark in the array
+    - creation a function on App.js
+    - pass the function as a prop to Square.js
+    - perform the function call on Square.js
+
+    - Pseudocode
+    - input: index of the clicked square, parameter is called id
+    - output: alter message with the id
+    - function name: handleClick
+
 - Can click on any of the question marks and a tree emoji appears instead of the alert
+    - emoji bar: Ctrl + command + spacebar "🌎"
+    - handleClick function updates value of the clicked square to the default emoji
+    - reassign the value to the emoji
+    - update the state variable with its setter function
 
 **Story 2**: In order to play the treasure hunt game, as the user of the application, I should be able to see a winning square and a losing square.
 
